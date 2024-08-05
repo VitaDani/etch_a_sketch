@@ -1,7 +1,6 @@
 /* Setting the variables for the flex container and what will be used to determine
    the grid squares' width and height */
 let container = document.querySelector(".container");
-// let row_column = 16;
 
 // Create the function that makes the grid of div squares
 function createGrid(row_column = 16) {
