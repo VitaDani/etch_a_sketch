@@ -5,6 +5,7 @@ html, body {
     margin: 0;
     padding: 0;
     height: 100%;
+    gap: 20px;
 }
 
 h1 {
@@ -13,16 +14,23 @@ h1 {
     font-weight: 100;
 }
 
+#grid_size {
+    border-radius: 5px;
+    font-size: 15px;
+    height: 40px;
+}
+
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    height: 500px;
-    width: 500px;
+    height: 600px;
+    width: 600px;
 }
 
 .square {
     box-sizing: border-box;
     border: 1px solid black;
+    flex: 0 1 auto;
 }
